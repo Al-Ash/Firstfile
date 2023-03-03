@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Your markup goes here. -->
+
+  <form method="post" action="/pets">
+    <fieldset>
+
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="pet_name">
+      </div>
+
+      <div>
+        <label for="type">Type</label>
+        <select id="type" name="pet_type">
+          <option value="Cat">Cat</option>
+          <option value="Dog">Dog</option>
+          <option value="Hamster">Hamster</option>
+          <option value="Other">Other</option>
+          <option value="Zebra">Zebra</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="bio">Biography</label>
+        <textarea id="bio" name="pet_bio"> </textarea>
+      </div>
+
+      <div>
+        <label for="owner-email">Owner's Email</label>
+        <input id="owner-email" type="email" name="pet_owner_email">
+      </div>
+
+      <div>
+        <button type="submit" id="new-pet-submit-button">Create new pet</button>
+      </div>
+      <div>
+        <button type="reset">Reset</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="card">
+    <img id=image src="images/desert.jpg" alt="card background">
+
+    <div id="container">
+      <img id="person" src="images/person-avatar.jpg" alt="profile picture">
+      <h1 id="title">Title goes here</h1>
+
+    </div>
+    <h2 id="secondary_text">Secondary text</h2>
+    <p id="body_text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</p>
+
+
+  </div>
+
+</body>
+
+</html>
